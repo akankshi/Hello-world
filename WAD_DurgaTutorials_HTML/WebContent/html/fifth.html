@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h2>Languages Known:</h2><br>
+<form action="http://localhost/test2">
+<pre>
+<input type="checkbox" name="c" value="cLang" id="c1" checked="checked" required="required"><label for="c1">C</label>
+<!-- <input type="checkbox" name="c" VALUE="cLang" id="c1" required="required"><label for="c1">C</label> -->
+<input type="checkbox" name="cplus" value="cpp" id="c2" disabled="disabled"><label for="c2">C++</label>
+<input type="checkbox" name="java" value="jlan" id="c3"><label for="c3">Java</label>
+
+<input type="text" name="comments" value="this is it" readonly="readonly">
+<hr>
+<label for="r1" title="MOBILE">Mobile: </label>  <input type="radio" name="gadget" value="mob" id="r1">
+<label for="r2">Lappy: </label>   <input type="radio" name="gadget" value="lap" id="r2">
+<label for="r3">Palm Tab </label> <input type="radio" name="gadget" value="tab" id="r3">
+<hr>
+<h4>Multiselect plain</h4>
+<select name="country" multiple="multiple">
+<option>India</option>
+<option title="Pak">Pakistan</option>
+<option>China</option>
+<option value="jap">Japan</option>
+<option value="aus">Australia</option>
+</select>
+
+<hr>
+<label for="acc">Multiselect with category</label>
+<select name="accessories" multiple="multiple" id="acc">
+<optgroup label="Laptops">
+<option>Dell</option>
+<option>HP</option>
+<option selected="selected">lenovo</option>
+</optgroup>
+<optgroup label="Mobiles">
+<option disabled="disabled">Moto</option>
+<option>Micromax</option>
+<option>Nokia</option>
+</optgroup>
+</select>
+
+<label for="res">Upload Resume: </label> <input type="file" name="resumeFileName" id="res">
+<input type="submit" value="enter" title="click enter">
+<hr>
+<h3>Iframe Tag</h3>
+<iframe src="images\47257.mp4" allowFullScreen height="200px" width="200px">heyyy</iframe>
+
+<br>
+
+<hr>
+<h2>TextArea</h2>
+<textarea name="workerComments" rows="3" cols="3" maxlength="15"></textarea>
+</pre>
+
+</form>
+</body>
+</html>
